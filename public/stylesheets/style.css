@@ -1,0 +1,48 @@
+/*Logo header*/
+#DIV_1 {
+    height: 100px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 688px;
+    perspective-origin: 344px 50px;
+    transform-origin: 344px 50px;
+    font: normal normal 100 normal 16px / 0px proxima-nova;
+}/*#DIV_1*/
+
+#A_2 {
+    bottom: 0px;
+    color: rgb(186, 13, 13);
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    top: 0px;
+    column-rule-color: rgb(186, 13, 13);
+    border: 0px none rgb(186, 13, 13);
+    font: normal normal 100 normal 16px / 0px proxima-nova;
+    outline: rgb(186, 13, 13) none 0px;
+}/*#A_2*/
+
+#IMG_3 {
+    bottom: 0px;
+    color: rgb(186, 13, 13);
+    height: 100px;
+    left: 0px;
+    max-height: 100px;
+    max-width: 100%;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: middle;
+    width: 479.359px;
+    column-rule-color: rgb(186, 13, 13);
+    perspective-origin: 239.672px 50px;
+    transform-origin: 239.672px 50px;
+    border: 0px none rgb(186, 13, 13);
+    font: normal normal 100 normal 16px / 0px proxima-nova;
+    outline: rgb(186, 13, 13) none 0px;
+}/*#IMG_3*/
