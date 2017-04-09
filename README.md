@@ -1,10 +1,23 @@
 ## Cabana Belvedere
 
-This is a presentation website for my mountain villa.
+Website for my mountain villa. 
 
+If you want to hear more about this kind of work, just get in touch! :) 
+
+#### Javscript
 #### NodeJS
+#### ExpressJS
 #### Heroku
+#### Bootstrap
+#### HTML5
+#### CSS3
+#### jQuery
+
+thinking about...
 
 #### ReactJS
 
-* future feature
+
+
+
+
