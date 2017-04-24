@@ -529,6 +529,7 @@ span.expand {
     font-size: 1.2em;
     color: #fff;
 }
+
 span.swim-icon-1 {
     background: url(../images/s7.png)no-repeat;
     width: 64px;
@@ -542,6 +543,15 @@ span.swim-icon-2 {
     height: 64px;
     display: inline-block;
     margin: 1em 0em;
+}
+
+#toalete h5, #toalete h4{
+  color: orange;
+  font-weight: bold;
+}
+#nivele h5, #nivele h4{
+  color: orange;
+  font-weight: bold;
 }
 span.swim-icon-3 {
     background: url(../images/s9.png)no-repeat;
