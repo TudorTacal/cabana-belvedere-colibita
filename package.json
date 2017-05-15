@@ -5,12 +5,13 @@
   "engines": {
     "node": "6.10.2"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
+    "body-parser": "^1.17.1",
     "ejs": "2.4.1",
     "express": "4.13.3",
     "nodemailer": "^4.0.1"
