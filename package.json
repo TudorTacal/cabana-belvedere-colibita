@@ -10,8 +10,10 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "nodemailer": "^4.0.1"
   },
   "repository": {
     "type": "git"

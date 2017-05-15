@@ -103,10 +103,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="contact-bottom">
 				<div class="col-md-9 contact-left">
-					<form>
-						<input type="text" placeholder="Nume">
-						<input type="text" class="email" placeholder="Email">
-						<textarea  placeholder="Mesaj" required=""></textarea>
+					<form action='/contact' method='post'>
+						<input type="text" name='name' placeholder="Nume">
+						<input type="text" name='email' class="email" placeholder="Email">
+						<textarea  name='message' placeholder="Mesaj" required=""></textarea>
 						<input type="submit" value="Trimite">
 					</form>
 				</div>
