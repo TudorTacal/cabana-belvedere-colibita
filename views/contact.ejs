@@ -79,9 +79,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div id="navbar" class="navbar-collapse collapse">
 						<nav class="cl-effect-16" id="cl-effect-16">
 							<ul class="nav navbar-nav">
-								<li><a class="active" href="/" data-hover="Acasa">Acasa</a></li>
+								<li><a  href="/" data-hover="Acasa">Acasa</a></li>
 								<li><a href="/rooms" data-hover="Camere">Camere</a></li>
-								<li><a href="/contact" data-hover="Contact">Contact</a></li>
+								<li><a href="/contact" class="active" data-hover="Contact">Contact</a></li>
 							</ul>
 						</nav>
 
@@ -108,17 +108,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input type="text" name='email' class="email" placeholder="Email">
 						<textarea  name='message' placeholder="Mesaj" required=""></textarea>
 						<input type="submit" id='trimite' onclick="" value="Trimite">
-						<script>
+						<!-- <script>
 							$("#trimite").click(function (event) {
-								if ($(this).hasClass("disabled")) {
-									$(this).attr("onclick","emailSent()");
-								}
-								$(this).addClass("disabled");
+								this.disabled = true;
+								$(this).attr("onclick","emailSent()");
+								function emailSent() {
+									alert('Email Sent');
+								};
 							});
-							function emailSent() {
-								alert('Email Sent');
-							};
-						</script>
+						</script> -->
 					</form>
 				</div>
 				<div class="col-md-3 contact-right">
