@@ -266,7 +266,7 @@ nav a:focus {
 .banner-main {
     width: 50%;
     margin: 14em auto 0em;
-    background:rgba(0, 0, 0, 0.74);
+    background:rgba(0, 0, 0, 0.40); 
     padding: 2em 2em;
     text-align: center;
 }
