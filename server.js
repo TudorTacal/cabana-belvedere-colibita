@@ -47,7 +47,9 @@ app.post('/contact', jsonParser, function (req, res) {
         user: process.env.EMAIL,
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
-        refreshToken: process.env.REFRESH_TOKEN
+        refreshToken: process.env.REFRESH_TOKEN,
+        accessToken: process.env.REFRESH_TOKEN,
+        expires: 1484314697598
       }
   });
 
