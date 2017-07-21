@@ -5,7 +5,6 @@ var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser')
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var jsonParser = bodyParser.json();
-var xoauth2 = require('xoauth2');
 
 
 app.set('port', (process.env.PORT || 5000));
