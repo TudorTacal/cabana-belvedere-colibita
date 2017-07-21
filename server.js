@@ -5,6 +5,8 @@ var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser')
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var jsonParser = bodyParser.json();
+var xoauth2 = require('xoauth2');
+
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -42,9 +44,12 @@ app.post('/contact', jsonParser, function (req, res) {
   smtpTrans = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.EMAIL_PASSWORD
-    }
+        type: 'OAuth2',
+        user: process.env.EMAIL,
+        clientId: process.env.CLIENT_ID,
+        clientSecret: process.env.CLIENT_SECRET,
+        refreshToken: process.env.REFRESH_TOKEN
+      }
   });
 
   mailOpts = {
@@ -59,11 +64,9 @@ app.post('/contact', jsonParser, function (req, res) {
       console.log(error);
       console.log('Not sent');
       console.log(process.env.EMAIL);
-      res.render('contact', { title: 'Lorena Personal Trainer - Contact', msg: 'Error occured, message not sent.', err: true, page: 'contact' })
     }
     else {
       console.log('sent');
-      res.render('contact', { title: 'Lorena Personal Trainer - Contact', msg: 'Message sent! Thank you.', err: false, page: 'contact' })
     }
   });
 
