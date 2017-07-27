@@ -108,14 +108,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input type="text" name='name' placeholder="Nume">
 						<input type="text" name='email' class="email" placeholder="Email">
 						<textarea  name='message' placeholder="Mesaj" required=""></textarea>
-						<input type="submit" id='trimite' onclick="" value="Trimite">
+						<input type="submit" id='trimite' onclick="setTimeout(function(){window.location.reload()},1000); this.style.display='none'" value="Trimite">
 						<!-- <script>
 							$("#trimite").click(function (event) {
 								this.disabled = true;
-								$(this).attr("onclick","emailSent()");
 								function emailSent() {
 									alert('Email Sent');
 								};
+								$(this).attr("onclick","alert('Email Sent')");
 							});
 						</script> -->
 					</form>
